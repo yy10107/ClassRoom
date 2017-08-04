@@ -1,0 +1,40 @@
+.App {
+  background: #e3e3e3;
+}
+
+.title {
+  font-size: xx-large;
+  height: 60px;
+}
+
+.subtitle {
+  margin-right:130px;
+}
+
+.subtitle-cate {
+  margin-right:130px;
+}
+
+.subtitle1 {
+  margin-right:105px;
+}
+
+.category-children {
+  display: inline-flex;
+  flex-direction: row;
+  width: 110px;
+}
+
+.short-children {
+  display: inline-table;
+  flex-direction: row;
+}
+
+.time-children {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.clear {
+  clear:both;
+}
