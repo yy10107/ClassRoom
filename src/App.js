@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import CategoryCheckbox from './component/category';
+import {Table,Row,rows} from './component/category';
 import FinishedTime from './component/finishedTime';
 import MileCheckbox from './component/mileage';
 import ShortenBlock from './component/shortname';
@@ -17,7 +17,7 @@ class App extends Component {
               <span className="subtitle">设施类别</span>
               <span className="checkbox">
               <MuiThemeProvider  >
-                    <CategoryCheckbox />
+                    <Table rows={rows}/>
               </MuiThemeProvider>
               </span>
           </div>

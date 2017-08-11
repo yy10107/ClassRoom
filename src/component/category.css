@@ -1,0 +1,11 @@
+.table-holder-container {
+    display: inline-flex;
+}
+
+.table {
+    float:right;width:120%;padding-right:20px;box-sizing:border-box;
+}
+
+.table-element {
+    padding-right:20px;
+}
